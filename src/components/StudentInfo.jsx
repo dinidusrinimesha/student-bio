@@ -28,7 +28,6 @@ function StudentInfo() {
       <div className={styles.studentDetails}>
         <div className={styles.detailColumn}>
           <div className={styles.detailGroup}>
-            <h3>Full Name</h3>
             <label htmlFor="firstName">First Name</label>
             <input id="firstName" type="text" value={studentData.firstName} readOnly className={styles.detailInput} />
           </div>
